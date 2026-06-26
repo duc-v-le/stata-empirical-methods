@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Stray top-level run logs (the real per-script logs live in logs/, ignored below)
+/*.log
+
+# Local-only — hidden from the public repo, kept on disk (logs/ is re-created at run time)
+logs/
+docs/
+
+# Book LaTeX source + build files — hidden; only the built PDFs in books/ are public
+books/_stata_reference/
+books/_stata_guide/

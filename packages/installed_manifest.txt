@@ -1,0 +1,77 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  packages/installed_manifest.txt
+  log type:  text
+ opened on:  23 Jun 2026, 14:25:39
+
+. display "Stata 19.5 SE — package dependencies"
+Stata 19.5 SE — package dependencies
+
+. ado dir
+
+[1] package ftools from http://fmwww.bc.edu/repec/bocode/f
+      'FTOOLS': module to provide alternatives to common Stata commands optimiz
+> ed for large datasets
+
+[2] package reghdfe from http://fmwww.bc.edu/repec/bocode/r
+      'REGHDFE': module to perform linear or instrumental-variable regression a
+> bsorbing any number of high-dimensional fixed effects
+
+[3] package estout from http://fmwww.bc.edu/repec/bocode/e
+      'ESTOUT': module to make regression tables
+
+[4] package coefplot from http://fmwww.bc.edu/repec/bocode/c
+      'COEFPLOT': module to plot regression coefficients and other results
+
+[5] package require from http://fmwww.bc.edu/repec/bocode/r
+      'REQUIRE': module to ensure that installed packages have a minimum or exa
+> ct version.
+
+[6] package ranktest from http://fmwww.bc.edu/repec/bocode/r
+      'RANKTEST': module to test the rank of a matrix
+
+[7] package ivreg2 from http://fmwww.bc.edu/repec/bocode/i
+      'IVREG2': module for extended instrumental variables/2SLS and GMM estimat
+> ion
+
+[8] package ivreghdfe from http://fmwww.bc.edu/repec/bocode/i
+      'IVREGHDFE': module for extended instrumental variable regressions with m
+> ultiple levels of fixed effects
+
+[9] package drdid from http://fmwww.bc.edu/repec/bocode/d
+      'DRDID': module for the estimation of Doubly Robust Difference-in-Differe
+> nce models
+
+[10] package csdid from http://fmwww.bc.edu/repec/bocode/c
+      'CSDID': module for the estimation of Difference-in-Difference models wit
+> h multiple time periods
+
+[11] package rdrobust from http://fmwww.bc.edu/repec/bocode/r
+      'RDROBUST': module to provide robust data-driven inference in the regress
+> ion-discontinuity design
+
+[12] package lpdensity from http://fmwww.bc.edu/repec/bocode/l
+      'LPDENSITY': module to perform Local Polynomial Density Estimation and In
+> ference
+
+[13] package rddensity from http://fmwww.bc.edu/repec/bocode/r
+      'RDDENSITY': module to perform  Manipulation Testing Using Local Polynomi
+> al Density Estimation
+
+[14] package synth from http://fmwww.bc.edu/repec/bocode/s
+      'SYNTH': module to implement Synthetic Control Methods for Comparative Ca
+> se Studies
+
+[15] package distinct from http://fmwww.bc.edu/repec/bocode/d
+      'DISTINCT': module to display distinct values of variables
+
+[16] package synth_runner from https://raw.githubusercontent.com/bquistorff/syn
+> th_runner/master
+      'synth_runner': module
+
+. log close
+      name:  <unnamed>
+       log:  packages/installed_manifest.txt
+  log type:  text
+ closed on:  23 Jun 2026, 14:25:39
+-------------------------------------------------------------------------------

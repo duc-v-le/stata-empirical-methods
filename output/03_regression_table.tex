@@ -1,0 +1,33 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Determinants of car price\label{tab:price}}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{Base}&\multicolumn{1}{c}{+Foreign}&\multicolumn{1}{c}{+Interaction}\\
+\midrule
+Mileage (mpg)       &      -49.51         &       21.85         &      292.83\sym{*}  \\
+                    &     (95.81)         &     (80.75)         &    (153.90)         \\
+\addlinespace
+Weight (1000 lbs)   &     1746.56\sym{**} &     3464.71\sym{***}&     5382.75\sym{***}\\
+                    &    (777.84)         &    (777.62)         &   (1084.04)         \\
+\addlinespace
+Domestic            &                     &        0.00         &        0.00         \\
+                    &                     &         (.)         &         (.)         \\
+\addlinespace
+Foreign             &                     &     3673.06\sym{***}&     3369.81\sym{***}\\
+                    &                     &    (664.94)         &    (757.93)         \\
+\addlinespace
+Mileage (mpg) $\times$ Weight (1000 lbs)&                     &                     &     -118.91         \\
+                    &                     &                     &     (85.68)         \\
+\addlinespace
+Constant            &     1946.07         &    -5853.70         &   -10105.04\sym{***}\\
+                    &   (4213.79)         &   (3873.72)         &   (3212.97)         \\
+\midrule
+Observations        &          74         &          74         &          74         \\
+\(R^{2}\)           &       0.293         &       0.500         &       0.524         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
