@@ -1,5 +1,7 @@
 # Stata skill portfolio — [Duc V. Le](https://duc-v-le.github.io)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20952641.svg)](https://doi.org/10.5281/zenodo.20952641)
+
 A small, **fully runnable** Stata project that demonstrates the empirical workflow
 applied economists use end to end: load → clean → model → diagnose → export. It pairs 12
 documented `.do` scripts with two typeset reference books, spanning data management,
