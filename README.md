@@ -1,4 +1,4 @@
-# Stata skill portfolio — Duc V. Le
+# Stata skill portfolio — [Duc V. Le](https://duc-v-le.github.io)
 
 A small, **fully runnable** Stata project that demonstrates the empirical workflow
 applied economists use end to end: load → clean → model → diagnose → export. It pairs 12
