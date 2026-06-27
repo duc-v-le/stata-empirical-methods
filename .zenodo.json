@@ -1,0 +1,29 @@
+{
+  "title": "Stata for Empirical Economics: A Reproducible Methods Portfolio",
+  "description": "Twelve documented Stata .do scripts and two typeset handbooks (a Reference and a line-by-line Guide) covering the empirical-economics workflow: data management; OLS and robust inference; panel fixed effects, difference-in-differences, and event studies; time series; instrumental variables and 2SLS; binary-outcome models; staggered difference-in-differences (Callaway-Sant'Anna); regression discontinuity; synthetic control; and dynamic-panel GMM. Every figure, table, and number is reproducible from the scripts.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Le, Duc V.",
+      "affiliation": "Georgetown University",
+      "orcid": "0000-0002-3349-7979"
+    }
+  ],
+  "keywords": [
+    "Stata",
+    "empirical economics",
+    "applied econometrics",
+    "reproducible research",
+    "difference-in-differences",
+    "instrumental variables",
+    "regression discontinuity",
+    "synthetic control",
+    "dynamic panel GMM"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.20950265", "relation": "isSupplementedBy", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.20951436", "relation": "isSupplementedBy", "scheme": "doi"}
+  ]
+}

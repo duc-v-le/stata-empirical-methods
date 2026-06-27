@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Stata for Empirical Economics: A Reproducible Methods Portfolio"
+type: software
+authors:
+  - family-names: "Le"
+    given-names: "Duc V."
+    affiliation: "Georgetown University"
+    orcid: "https://orcid.org/0000-0002-3349-7979"
+license: MIT
+repository-code: "https://github.com/duc-v-le/stata-empirical-methods"
+url: "https://github.com/duc-v-le/stata-empirical-methods"
+keywords:
+  - Stata
+  - empirical economics
+  - applied econometrics
+  - reproducible research
