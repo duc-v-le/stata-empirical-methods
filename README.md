@@ -11,7 +11,9 @@ Every script was executed on **Stata 19.5 SE** and runs clean; the figures and t
 
 **The two typeset books are in [`books/`](books/):** the [Reference](books/Stata-Reference.pdf)
 (method, code, and results for all 12 scripts) and the [Guide](books/Stata-Guide.pdf)
-(a line-by-line walkthrough).
+(a line-by-line walkthrough). Each book is archived with a citable DOI —
+Reference: [10.5281/zenodo.20950265](https://doi.org/10.5281/zenodo.20950265) ·
+Guide: [10.5281/zenodo.20951436](https://doi.org/10.5281/zenodo.20951436).
 
 ## How to run
 From inside this folder, in Stata:
